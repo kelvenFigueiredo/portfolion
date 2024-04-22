@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Nav = styled.section`
     width: 100%;
-    height: 6vw;
+    height: 7vw;
    // border: 1px solid black;
-   /* position: sticky;
-   top:0; */
+   position: sticky;
+   top:0; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,9 +13,11 @@ export const Nav = styled.section`
      
 `
 export const Logo = styled.div`
+    padding: 5px;
     margin-left: 2vw;
-    border: 1px solid black;
-    font-size: 33px;
+    border: 3px solid white;
+    border-radius: 35px;
+    font-size: 43px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -36,5 +38,6 @@ export const Text = styled.span`
         font-size: larger;
         &:hover{
             color: #dad9d9;
+            transition: 0.5s;
         }
 `

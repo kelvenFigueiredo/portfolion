@@ -26,13 +26,20 @@ export const Aside = styled.aside`
 `
 
 export const Inf = styled.div`
-    width: 100%;
+    width: 90%;
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    //border: 1px solid black;
+   // border: 1px solid black;
+    border-radius: 30px;
     flex-wrap: wrap;
+    background: linear-gradient(to left, #072E33 0%, #0F969C 100%);
+    &:hover{
+        width: 92%;
+        height: 58%;
+        transition: 0.5s;
+    }
 `
 
 export const Buttons = styled.div`
@@ -65,6 +72,11 @@ export const Letra = styled.span`
     font-size:90px;
 `
 export const Img = styled.img`
-    width: 75%;
-    height: 60%;
+    width: 65%;
+    height: 50%;
+    &:hover{
+        width: 75%;
+        height: 60%;
+        transition: 0.5s;
+    }
 `

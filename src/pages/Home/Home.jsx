@@ -18,7 +18,7 @@ const Home = ()=>{
                         </Text>
                         <Buttons>
                             <Button>View CV  <i class="bi bi-arrow-up"></i></Button>
-                            <Button>Got to GitHub <i class="bi bi-arrow-up-right"></i></Button>
+                            <Button> <a href="https://github.com/kelvenFigueiredo/portfolio.git"> Got to GitHub <i class="bi bi-arrow-up-right"></i></a></Button>
                         </Buttons>
                     </Inf>
                 </Article>

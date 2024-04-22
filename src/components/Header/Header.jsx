@@ -1,29 +1,26 @@
 import React from "react";
-import { Nav,NavItems,Logo } from "./styled-header";
+import { Nav,NavItems,Logo, Text } from "./styled-header";
 import { Link } from "react-router-dom";
 
 const Header = ()=>{
     return(
         <>
             <Nav>
-                <Logo>
                     <Link to="/">
-                        <h1>KL</h1>
+                        <Logo>KL</Logo>
                     </Link>
-                    
-                </Logo>
                 <NavItems>
                         <li>
-                            <Link to="/">home</Link>
+                            <Link to="/"><Text>home</Text> </Link>
                         </li>
                         <li>
-                            <Link to="/About">about</Link>
+                            <Link to="/About"><Text> about</Text></Link>
                         </li>
                         <li>
-                            <Link to="/Projects">projects</Link>
+                            <Link to="/Projects"><Text>projects</Text> </Link>
                         </li>
                         <li>
-                            <Link to="/Contact">contact</Link>
+                            <Link to="/Contact"><Text>contact</Text> </Link>
                         </li>
                 </NavItems>
             </Nav>

@@ -44,7 +44,7 @@ export const Buttons = styled.div`
     align-items: center;
 `
 export const Button = styled.button`
-    width: 160px;
+    width: 120px;
     height: 50px;
     border-radius: 18px;
     border: none;

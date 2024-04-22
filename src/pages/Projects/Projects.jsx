@@ -1,10 +1,18 @@
 import React from "react";
-import { Section } from "./styled-projects";
+import { Section, ProjectMain, Text } from "./styled-projects";
 
 const Projects = ()=>{
     return(
         <>
-            <Section>Projects</Section>
+            <Section>
+                <Text>
+                Projects
+                </Text>
+                
+                <ProjectMain>
+
+                </ProjectMain>
+            </Section>
         </>
     );
 }

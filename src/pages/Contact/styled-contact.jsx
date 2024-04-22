@@ -6,6 +6,6 @@ export const Section = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6DA5C0;
+    background: linear-gradient(to top, #072E33 0%, #0F969C 100%);
     border: 1px solid black;
 `

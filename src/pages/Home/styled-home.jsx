@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Section = styled.section`
     display: flex;
     width: 100%;
-    border: 1px solid blue;
+   // border: 1px solid blue;
     justify-content: space-around;
     height: 820px;
     background: linear-gradient(to top, #072E33 0%, #0F969C 100%);
@@ -18,7 +18,7 @@ export const Section = styled.section`
 export const Article = styled.div`
     width: 400px;
     height: 820px;
-   border: 1px solid violet;
+  // border: 1px solid violet;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@ export const Article = styled.div`
 export const Aside = styled.aside`
     width: 500px;
     height: 820px;
-   border: 1px solid red;
+  // border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@ export const Inf = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-   border: 1px solid black;
+   //border: 1px solid black;
     border-radius: 0px 46px;
     box-shadow: 27px 16px 25px -6px rgba(0,0,0,0.75);
     flex-wrap: wrap;
@@ -78,14 +78,16 @@ export const Button = styled.button`
 `
 
 export const Text = styled.div`
-    display: flexbox;
+    margin-left: 50px;
     //border: 1px solid black;
     color: white;
+ 
 
 `
 export const Name = styled.p`
     font-size:45px;
     //border: 1px solid black;
+    font-family: "Montserrat", sans-serif;
 `
 export const Letra = styled.span`
     font-size:90px;

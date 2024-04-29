@@ -7,7 +7,7 @@ export const Section = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    //border: 1px solid black;
     flex-wrap: wrap;
 `
 export const Text = styled.div`
@@ -23,7 +23,7 @@ export const Text = styled.div`
 export const ProjectMain = styled.div`
     width: 100%;
     height: 60%;
-    border: 1px solid white;
+   // border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;

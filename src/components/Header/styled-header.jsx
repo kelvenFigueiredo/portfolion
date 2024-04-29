@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Nav = styled.section`
     width: 100%;
-    height: 7vw;
+    height: 80px;
    // border: 1px solid black;
-   position: sticky;
+   //position: sticky;
    top:0; 
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,7 @@ export const Logo = styled.div`
 export const NavItems = styled.ul`
     margin-right: 2vw;
     display: flex;
-    gap: 2.4rem;
+    gap: 2.4vw;
     text-transform: uppercase;
 `
 export const Text = styled.span`

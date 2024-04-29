@@ -2,10 +2,49 @@ import styled from "styled-components";
 
 export const Section = styled.footer`
     width: 100%;
-    height: 6vw;
+    height: 180px;
     background-color: wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   // border: 1px solid black;
+    @media (max-width: 800px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.rem;
+    }
+`
+export const Icons = styled.div`
+  //  border: 1px solid black;
+    width: 320px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+`
+export const Box = styled.div`
+    width: 50px;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 12px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+`
+export const Text = styled.span`
+    width: 750px;
+    height: 80px;
+    //border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media(max-width: 800px){
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 `

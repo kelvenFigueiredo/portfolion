@@ -3,42 +3,61 @@ import styled from "styled-components";
 export const Section = styled.section`
     display: flex;
     width: 100%;
-    //border: 1px solid blue;
+    border: 1px solid blue;
+    justify-content: space-around;
     height: 820px;
     background: linear-gradient(to top, #072E33 0%, #0F969C 100%);
+    @media(max-width: 800px) {
+        background-color: #000707;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `
-export const Article = styled.article`
-    width: 58%;
+export const Article = styled.div`
+    width: 400px;
     height: 820px;
-   // border: 1px solid violet;
-    display: inline-flex;
+   border: 1px solid violet;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    @media(max-width: 360px) {
+       // background-color: #000707;
+        display: flex ;
+        justify-content: center;
+    }
 `
 export const Aside = styled.aside`
-    width: 42%;
+    width: 500px;
     height: 820px;
-   // border: 1px solid red;
+   border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
 `
 
 export const Inf = styled.div`
-    width: 90%;
-    height: 50%;
+    width: 100%;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
-   // border: 1px solid black;
-    border-radius: 30px;
+   border: 1px solid black;
+    border-radius: 0px 46px;
+    box-shadow: 27px 16px 25px -6px rgba(0,0,0,0.75);
     flex-wrap: wrap;
     background: linear-gradient(to left, #072E33 0%, #0F969C 100%);
-    &:hover{
-        width: 92%;
-        height: 58%;
-        transition: 0.5s;
+
+    @media(max-width: 800px) {
+       // background-color: #000707;
+       // margin-left: auto;
+       // margin-right: auto;
+        display: flex ;
+        justify-content: center;
+        width: 100%;
+    height: 100%;
     }
 `
 
@@ -79,4 +98,5 @@ export const Img = styled.img`
         height: 60%;
         transition: 0.5s;
     }
+
 `

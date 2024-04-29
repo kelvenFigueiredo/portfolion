@@ -9,6 +9,9 @@ const Home = ()=>{
     return(
         <>
             <Section>
+                <Aside>
+                    <Img src={Perfil} alt="Perfil"  />
+                </Aside>
                 <Article>
                     <Inf>
                         <Text>
@@ -22,9 +25,6 @@ const Home = ()=>{
                         </Buttons>
                     </Inf>
                 </Article>
-                <Aside>
-                    <Img src={Perfil} alt="Perfil"  />
-                </Aside>
             </Section>
             <About/>
             <Projects/>

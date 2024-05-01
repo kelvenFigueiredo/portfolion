@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Section = styled.footer`
     width: 100%;
     height: 180px;
-    background: linear-gradient(to right,  #0F969C 60%, #072E33 100%);
+    background: linear-gradient(to right,  #0F969C 10%, #072E33 100%);
     display: flex;
     justify-content: space-around;
     align-items: center;

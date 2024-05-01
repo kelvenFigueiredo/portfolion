@@ -20,8 +20,8 @@ const Home = ()=>{
                             <h2>Front-End Developer</h2>
                         </Text>
                         <Buttons>
-                            <Button>View CV  <i class="bi bi-arrow-up"></i></Button>
-                            <Button> <a href="https://github.com/kelvenFigueiredo/portfolio.git"> Got to GitHub <i class="bi bi-arrow-up-right"></i></a></Button>
+                            <Button>Ver CV  <i class="bi bi-arrow-up"></i></Button>
+                            <Button> <a href="https://github.com/kelvenFigueiredo/portfolio.git">Ver GitHub <i class="bi bi-arrow-up-right"></i></a></Button>
                         </Buttons>
                     </Inf>
                 </Article>

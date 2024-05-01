@@ -37,7 +37,7 @@ const Contact = ()=>{
                     </Icons>
                 </Aside>
                 <Form>
-                    <h1>CONTACT US</h1>
+                    <h1>CONTACTE-NOS</h1>
                     <Label htmlFor="username">Username:</Label>
                     <Input1 type="text" name="username" id="username" placeholder="Type Your Username..." required/>
                     <Label htmlFor="email">Email:</Label>

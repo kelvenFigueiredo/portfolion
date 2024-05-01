@@ -68,6 +68,7 @@ export const Buttons = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 `
 export const Button = styled.button`
     width: 120px;
@@ -75,6 +76,15 @@ export const Button = styled.button`
     border-radius: 18px;
     border: none;
     cursor: pointer;
+    background: linear-gradient(to bottom, #072E33 0%, #0F969C 100%);
+    box-shadow: 27px 16px 25px -6px rgba(0,0,0,0.75);
+    &:hover{
+        width: 60%;
+        height: 58px;
+        transition: 0.9s;
+        background: linear-gradient(to top, #0F969C 0%, #6DA5C0 100%);
+        box-shadow: 27px 16px 25px -6px rgba(0,0,0,0.75);
+    }
 `
 
 export const Text = styled.div`

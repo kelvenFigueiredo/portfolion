@@ -51,6 +51,7 @@ export const Aside = styled.div`
     gap: 1.5rem;
     background: linear-gradient(to top, #0F969C 0%, #6DA5C0 100%);
     //background-color: #949494;
+    box-shadow: 37px 36px 25px -6px rgba(0,0,0,0.75);
 
 `
 export const Img = styled.img`
@@ -60,6 +61,7 @@ export const Img = styled.img`
     display: flex;
     justify-content: space-evenly;
     //border: 1px solid white;
+    //box-shadow: 27px 16px 25px -6px rgba(0,0,0,0.75);
 `
 
 export const Form = styled.div`

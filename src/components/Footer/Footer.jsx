@@ -6,6 +6,9 @@ const Footer = ()=>{
     return(
         <>
             <Section>
+                <Text>
+                    Copyright © 2024 Desenvolvido por Kelven De Figueiredo Leopoldo | Todos direitos reservados
+                </Text>
                 <Icons>
                     <Box>
                     <FaGithub/>
@@ -14,9 +17,7 @@ const Footer = ()=>{
                     <Box><FaInstagram/></Box>
                     <Box><FaXTwitter/></Box>
                 </Icons>
-                <Text>
-                    Copyright c 2024 Developed by Kelven De Figueiredo Leopoldo | Todos direitos reservados
-                </Text>
+
             </Section>
         </>
     );

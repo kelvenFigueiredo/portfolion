@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Section = styled.footer`
     width: 100%;
     height: 180px;
-    background-color: wheat;
+    background: linear-gradient(to right,  #0F969C 20%, #072E33 100%);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,17 +34,19 @@ export const Box = styled.div`
     align-items: center;
 `
 export const Text = styled.span`
-    width: 750px;
-    height: 80px;
+    width: 780px;
+    height: 60px;
     //border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     @media(max-width: 800px){
-        height: 100px;
+        height: 80px;
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
+      //  border: 1px solid black;
+        width: 100%;
     }
 `

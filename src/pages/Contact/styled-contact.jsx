@@ -64,7 +64,7 @@ export const Img = styled.img`
     //box-shadow: 27px 16px 25px -6px rgba(0,0,0,0.75);
 `
 
-export const Form = styled.div`
+export const Form = styled.form`
    // display: flex;
    background: linear-gradient(to bottom, #072E33 0%, #0F969C 100%);
    border-radius: 18px 0px;
@@ -120,7 +120,7 @@ export const Hr = styled.hr`
     width: 80%;
     color: white;
 `
-export const Box = styled.div`
+export const A = styled.a`
     width: 45px;
     height: 100%;
     border: 1px solid white;
@@ -129,4 +129,19 @@ export const Box = styled.div`
     justify-content: center;
     align-items: center;
     cursor: pointer;
+`
+export const AlertBox = styled.div`
+    padding: 12px 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: ${({ type }) => (type === 'success' ? '#4CAF50' : '#f44336')};
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease;
+    
+    &.fadeOut {
+        opacity: 0;
+    }
 `
